@@ -1,0 +1,96 @@
+.header {
+    background-color: bisque;
+    margin-bottom: 2%;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.img {
+    width: 75px;
+    padding: 1rem;
+
+}
+
+.profile {
+    justify-content: left;
+}
+
+.navigation {
+    justify-content: right;
+    margin-top: 2%;
+}
+
+
+p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    background-color: bisque;
+    margin-bottom: 2%;
+}
+
+.about h1 {
+    text-align: center;
+}
+
+.work {
+    display: flex;
+    flex-direction: column;
+    background-color: bisque;
+    align-items: center;
+    margin-bottom: 2%;
+}
+
+
+.work h1 {
+    text-align: center;
+}
+
+.videos {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.resume {
+    display: flex;
+    flex-direction: column;
+    background-color: bisque;
+    margin-bottom: 2%;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    background-color: bisque;
+    margin-bottom: 2%;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.form {
+    margin-left: 675px;
+}
+
+.footer {
+    background-color: bisque;
+}
+
+a {
+    margin: 1rem;
+}

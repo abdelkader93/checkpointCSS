@@ -1,64 +1,90 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8" />
-		<title>Checkpoint HTML</title>
-	</head>
-	<body>
-		
-		<!-- HEADER  -->
-		<header>
-            <nav>
-			<a href="#home">HOME</a>
-			<a href="#about">ABOUT</a>
-            <a href="#work">WORK</a>
-            <a href="#resume">RESUME</a>
-			<a href="#contact">CONTACT</a>
-        </nav>
-		</header>
-		<!-- MAIN -->
-		<main>
-            <section class="about">
-<p>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate facere quas fuga error! Voluptatibus nulla, consectetur rerum, esse dolor placeat pariatur ea vel facilis porro beatae dicta non in vitae?
-</p>
-<img
-				src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEc9A_S6BPxCDRp5WjMFEfXrpCu1ya2OO-Lw&s"
-				alt="html-logo"
-			/>
-            </section>
-            <section class="work">
-                <iframe width="853" height="480" src="https://www.youtube.com/embed/salY_Sm6mv4" title="HTML in 5 minutes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-                <video
-				width="400px"
-				controls
-				src="./assets/Introduction to HTML || Your First Web Page || Part 1.mp4"
-			></video>
+<head>
+    <meta charset="utf-8" />
+    <title>Checkpoint HTML</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- HEADER  -->
+    <header class="header">
+        <nav class="head">
+            <div class="profile">
+                <img class="img" src="https://cdn-icons-png.flaticon.com/512/2919/2919906.png" alt="profile-logo" />
+            </div>
+            <div class="navigation">
+                <a href="#home">HOME</a>
+                <a href="#about">ABOUT</a>
+                <a href="#work">WORK</a>
+                <a href="#resume">RESUME</a>
+                <a href="#contact">CONTACT</a>
+            </div>
+        </nav>
+    </header>
+    <!-- MAIN -->
+    <main>
+        <section class="about">
+            <h1>ABOUT</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate facere quas fuga error! Voluptatibus
+                nulla, consectetur rerum, esse dolor placeat pariatur ea vel facilis porro beatae dicta non in vitae?
+            </p>
+
+        </section>
+        <section class="work">
+            <h1>WORK</h1>
+            <div class="videos">
+
+                <div>
+                    <iframe class="video1" width="853" height="480" src="https://www.youtube.com/embed/salY_Sm6mv4"
+                        title="HTML in 5 minutes" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div>
+                    <iframe class="video1" width="853" height="480" src="https://www.youtube.com/embed/salY_Sm6mv4"
+                        title="HTML in 5 minutes" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
         </section>
         <section class="resume">
+            <h1>RESUME</h1>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus fuga ex exercitationem laboriosam harum doloribus eaque odio vel enim, vitae, eligendi rerum natus temporibus eum doloremque quos voluptatem non. Porro.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus fuga ex exercitationem laboriosam
+                harum doloribus eaque odio vel enim, vitae, eligendi rerum natus temporibus eum doloremque quos
+                voluptatem non. Porro.
             </p>
         </section>
         <section class="contact">
+            <h1>CONTACT</h1>
             <h2>Contact me</h2>
 
-            <form action="/action_page.php">
+            <form class="form" action="/action_page.php">
                 <label for="fname">First name:</label><br>
                 <input type="text" id="fname" name="fname" placeholder="enter your First name"><br>
                 <label for="lname">Last name:</label><br>
                 <input type="text" id="lname" name="lname" placeholder="enter your last name"><br><br>
                 <input type="submit" value="Submit">
-              </form> 
+            </form>
 
         </section>
-		</main>
-		<!-- FOOTER-->
-		<footer>
-            <p>
-                2024 GoMyCode By Abdelkader Ferchichi 
-            </p>
-        </footer>
-	</body>
+    </main>
+    <!-- FOOTER-->
+    <footer class="footer">
+        <p>
+            2024 GoMyCode By Abdelkader Ferchichi
+        </p>
+    </footer>
+</body>
+
 </html>
